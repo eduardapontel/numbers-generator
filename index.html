@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers Generator</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:wght@700&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <div id="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+            <mask id="mask0_3249_293" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="34"
+                height="34">
+                <path d="M34 0H0V34H34V0Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_3249_293)">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17 5.71963C15.7715 5.71963 14.7757 6.71548 14.7757 7.94393H9.05607C9.05607 3.55662 12.6127 0 17 0C21.3874 0 24.9439 3.55662 24.9439 7.94393C24.9439 12.3312 21.3874 15.8878 17 15.8878V10.1682C18.2284 10.1682 19.2243 9.17237 19.2243 7.94393C19.2243 6.71548 18.2284 5.71963 17 5.71963ZM28.2803 17C28.2803 15.7715 27.2845 14.7757 26.0561 14.7757V9.05607C30.4434 9.05607 34 12.6127 34 17C34 21.3874 30.4434 24.9439 26.0561 24.9439C21.6687 24.9439 18.1121 21.3874 18.1121 17H23.8318C23.8318 18.2284 24.8277 19.2243 26.0561 19.2243C27.2845 19.2243 28.2803 18.2284 28.2803 17ZM7.94393 19.2243C6.71548 19.2243 5.71963 18.2284 5.71963 17C5.71963 15.7715 6.71548 14.7757 7.94393 14.7757C9.17237 14.7757 10.1682 15.7715 10.1682 17H15.8878C15.8878 12.6127 12.3312 9.05607 7.94393 9.05607C3.55662 9.05607 0 12.6127 0 17C0 21.3874 3.55662 24.9439 7.94393 24.9439V19.2243ZM17 28.2803C18.2284 28.2803 19.2243 27.2845 19.2243 26.0561H24.9439C24.9439 30.4434 21.3874 34 17 34C12.6127 34 9.05607 30.4434 9.05607 26.0561C9.05607 21.6687 12.6127 18.1121 17 18.1121V23.8318C15.7715 23.8318 14.7757 24.8277 14.7757 26.0561C14.7757 27.2845 15.7715 28.2803 17 28.2803Z"
+                    fill="#C58DE7" />
+            </g>
+        </svg>
+
+        <h2>Numbers</h2>
+    </div>
+    <div class="container">
+        <div class="left-side">
+            <header>
+                <h4>Online - Free</h4>
+                <h1>Numbers Generator</h1>
+            </header>
+
+        </div>
+        <div class="right-side">
+            <div id="form-container">
+                <div id="form-header">
+                    <h3>I want to generate:</h3>
+                    <p>Define the interval and the number of numbers, click "Generate" and see the results on the screen. It's
+                        fast
+                        and easy!</p>
+                </div>
+
+                <form>
+                    <div id="fields">
+                        <div class="number-field">
+                            <p class="label">numbers</p>
+                            <div class="input-container"><input value="2" maxlength="3"></div>
+                        </div>
+                        <div class="number-field">
+                            <p class="label">from</p>
+                            <div class="input-container"><input value="1" maxlength="3"></div>
+                        </div>
+                        <div class="number-field">
+                            <p class="label">to</p>
+                            <div class="input-container"><input value="100" maxlength="3"></div>
+                        </div>
+                    </div>
+
+                    <div id="option-toggle">
+                        <div id="toggle" class="active">
+                            <img id="ellipse" src="./assets/icons/ellipse.svg" alt="ellipse">
+                        </div>
+                        <p>Do not repeat numbers</p>
+                    </div>
+                </form>
+
+                <button class="button">
+                    generate
+                    <img src="./assets/icons/arrow.svg" alt="arrow">
+                </button>
+            </div>
+
+            <div id="result-container">
+                <div id="result-text">
+                    <h3>Result of the draw</h3>
+                    <p><span>1st</span> result</p>
+                </div>
+
+                <div id="number-container">
+                    <div class="animation-number">
+                        <div class="retangle"></div>
+                        <p class="result"></p>
+                    </div>
+                    <div class="animation-number">
+                        <div class="retangle"></div>
+                        <p class="result"></p>
+                    </div>
+                </div>
+
+                <button class="button">
+                    generate again
+                    <img src="./assets/icons/restart.svg" alt="restart">
+                </button>
+            </div>
+        </div>
+
+        <div id="questions"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+header {
+    gap: 8px;
+    & h4 {
+        font: var(--overline);
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #c7c9cc 0%, #3d3d3d 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: font-size 0.5s ease-in-out;
+    }
+
+    & h1 {
+        color: var(--content-primary);
+
+        font: var(--display-medium);
+
+        text-transform: uppercase;
+    }
+}
