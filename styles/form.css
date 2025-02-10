@@ -1,5 +1,5 @@
 #form-container {
-    margin-top: 42px;
+    margin-block: 13px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -159,7 +159,7 @@
         text-transform: uppercase;
         border: none;
         font: var(--label-medium);
-        
+
         &:hover img {
             animation: arrow-move 1.5s infinite ease-in-out;
         }

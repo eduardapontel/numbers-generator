@@ -147,13 +147,16 @@ body {
 }
 
 @media (width >= 60em) {
-
     .desktop-only {
         display: flex;
     }
 
     #logo {
         max-width: 2000px;
+    }
+
+    #result-container {
+        margin-top: 0px;
     }
 
     .container {
