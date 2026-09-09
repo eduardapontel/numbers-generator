@@ -1,6 +1,6 @@
 # Numbers Generator 🎲
 
-**Numbers Generator** is a simple and intuitive web application that allows users to generate random numbers within a specified range.
+**Numbers Generator** is a simple responsive and intuitive web application that allows users to generate random numbers within a specified range.
 
 <br>
 
@@ -51,7 +51,8 @@ Here’s an overview of the project structure:
 - Clone the repository:
 
    ```bash
-   git clone https://github.com/eduardapontel/numbers-generator.git
+     git clone https://github.com/eduardapontel/numbers-generator.git
+   ```
 
 - Open index.html in your browser.
   
