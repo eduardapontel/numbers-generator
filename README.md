@@ -6,7 +6,7 @@
 
 ## Layout ✏️
 
-The layout for this project was created by **Rocketseat** using **Figma**. You can view the layout file and its components by visiting the following link: [Figma Layout](https://www.figma.com/design/0nlMXGeAWKr6XrT8lj4HLG/Sorteador-de-n%C3%BAmeros-(Community)?node-id=0-1&p=f&m=dev).
+The layout for this project was created by **Rocketseat** using **Figma**. You can view the layout file and its components by visiting the following link: [Figma Layout](https://www.figma.com/community/file/1397279380752780744/sorteador-de-numeros).
 
 The layout showcases the structure, color scheme, and visual design of the web application, providing a clear reference for the development of the project.
 
