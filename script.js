@@ -87,6 +87,8 @@ const handleGenerateButtonClick = () => {
 const validateInput = input => {
     input.value = input.value.replace(/[^0-9]/g, '');
 
+    input.value = input.value.replace(/^0+(?=\d)/, '');
+
     const index = [...inputFields].indexOf(input);
     const maxValues = [10, 100, 100];
     const max = maxValues[index];
