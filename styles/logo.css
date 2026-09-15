@@ -16,9 +16,8 @@
 }
 
 @media (width >= 60em) {
-    #logo{
+    #logo {
         justify-content: start;
-        padding: 76px 0 89px 120px;
-        margin: 0;
+        margin: 76px 0 89px 120px;
     }
 }
