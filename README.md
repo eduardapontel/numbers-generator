@@ -14,8 +14,8 @@ The layout showcases the structure, color scheme, and visual design of the web a
 
 ## Features ✨
 
-- **Customizable Range**: Define the minimum and maximum values for the random numbers.
-- **Number of Results**: Choose how many random numbers you want to generate.
+- **Customizable Range**: Define the minimum and maximum values for the random numbers. Both values can range from `0` to `100`.
+- **Number of Results**: Choose up to `10` numbers to generate at once.
 - **Unique Numbers**: Option to generate unique numbers without repetition.
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
