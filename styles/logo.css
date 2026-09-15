@@ -1,9 +1,10 @@
 #logo {
     display: flex;
+    width: fit-content;
     align-items: center;
     justify-content: center;
     gap: 11px;
-    padding-block: 44px 46px;
+    margin: 44px auto 46px;
     text-decoration: none;
 
     & h2 {
