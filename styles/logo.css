@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 11px;
     padding-block: 44px 46px;
+    text-decoration: none;
 
     & h2 {
         font: var(--display-medium);
